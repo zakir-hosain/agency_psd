@@ -1,0 +1,74 @@
+@media only screen and (max-width:992px){
+    .approch-area .box{
+    display: block;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+    .mobile-menu{
+    display: block;;
+}
+    .menu-area .menu{
+    display: none;
+    }
+    .approch-area .box .content{
+    padding: 30px;
+    margin-left: 30px;
+}
+    .approch-area .box img{
+    margin-left: 30px;
+}
+    .approch-area .small-box{
+    position: inherit;
+    top: 0%;
+    left: 46%;
+}
+    .approch-area .small-box2{
+    position: inherit;
+    top: 0%;
+    left: 46%;
+}
+    .work-area .flex{
+    display: grid; 
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+}
+@media only screen and (max-width:768px){
+    .container{
+    max-width: 94%;
+    margin: auto;
+}
+    .about-area .flex{
+    display: block;
+}
+    .get-area .box{
+    width: 80%;
+}
+    .get-area .box input{
+    width: 85%;
+}
+}
+@media only screen and (max-width:572px){
+    .approch-area .box img{
+    margin-left: 0px;
+}
+    .approch-area .small-box{
+    position: inherit;
+    top: 0%;
+    left: 36%;
+}
+    .approch-area .small-box2{
+    position: inherit;
+    top: 0%;
+    left: 36%;
+}
+    .approch-area .box .content{
+    margin-left: 0px;
+}
+    .work-area .flex{
+    grid-template-columns: auto;
+}
+}
